@@ -47,7 +47,7 @@ This project is designed for beginners who want to understand how AWS Applicatio
 ## Architecture
 
 <p align="center">
-  <img src="images/alb-architecture.png" width="900">
+  <img src="images/01-architecture.png" width="900">
 </p>
 
 ## Step 1: Create Website Files
