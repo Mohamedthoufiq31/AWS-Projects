@@ -1,4 +1,22 @@
 # aws alb-path based routing
+<p>
+
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Application_Load_Balancer-FF9900?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/PROJECT-PATH--BASED_ROUTING-007ACC?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/STATUS-COMPLETED-32CD32?style=for-the-badge"/>
+
+</p>
+
+Designed and deployed a highly available **Application Load Balancer (ALB)** architecture on AWS that routes incoming requests to multiple web applications using **Path-Based Routing**.
+
+The project demonstrates core AWS networking concepts including **Amazon VPC**, **EC2**, **Application Load Balancer**, **Target Groups**, **Health Checks**, **Amazon EFS**, **Security Groups**, **Route Tables**, and **High Availability** while serving multiple applications from a single load balancer.
+
+---
+
 
 ## Project Overview
 
@@ -27,7 +45,10 @@ In this project, I learnt how to:
 This project is designed for beginners who want to understand how AWS Application Load Balancer distributes traffic to multiple applications using URL paths.
 
 ## Architecture
-<img width="1056" height="577" alt="image" src="https://github.com/user-attachments/assets/0aafd2e6-b8e8-4788-87ef-dc5ca97bedff" />
+
+<p align="center">
+  <img src="images/alb-architecture.png" width="900">
+</p>
 
 ## Step 1: Create Website Files
 Create three web applications.
