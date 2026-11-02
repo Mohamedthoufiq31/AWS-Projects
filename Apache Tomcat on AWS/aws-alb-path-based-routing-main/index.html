@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | ALB Path Routing Demo</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #1f2937, #111827);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 650px;
+    text-align: center;
+    background: rgba(255,255,255,0.05);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0,0,0,.4);
+}
+
+h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+p{
+    color:#d1d5db;
+    font-size:18px;
+}
+
+.badge{
+    display:inline-block;
+    margin:20px 0 30px;
+    background:#374151;
+    padding:8px 18px;
+    border-radius:25px;
+}
+
+.buttons{
+    margin-top:20px;
+}
+
+.btn{
+    display:inline-block;
+    text-decoration:none;
+    margin:10px;
+    padding:14px 28px;
+    background:#2563eb;
+    color:white;
+    border-radius:10px;
+    font-size:18px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#1d4ed8;
+}
+
+.footer{
+    margin-top:30px;
+    color:#9ca3af;
+    font-size:14px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>🏠 Home Page</h1>
+
+<p>
+Welcome to the AWS Application Load Balancer Demo
+</p>
+
+<p>
+Select an application below.
+</p>
+
+<div class="badge">
+Default Target Group
+</div>
+
+<div class="buttons">
+
+<a class="btn" href="/app1" target="_blank">
+🚀 Open App1
+</a>
+
+<a class="btn" href="/app2" target="_blank">
+📦 Open App2
+</a>
+
+<a class="btn" href="/health.html" target="_blank">
+❤️ Health Check
+</a>
+
+</div>
+
+<div class="footer" id="meta"></div>
+
+</div>
+
+<script>
+document.getElementById("meta").innerHTML =
+"Loaded on : " +
+new Date().toLocaleString() +
+"<br>Host : " +
+window.location.hostname;
+</script>
+
+</body>
+</html>
