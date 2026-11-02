@@ -16,31 +16,39 @@ A collection of my hands-on <strong>AWS Cloud & DevOps projects</strong>, showca
 
 ---
 
-# 📖 About
+
+
+## 📖 About
 
 This repository contains my hands-on AWS Cloud projects built while learning Cloud Computing and DevOps.
 
 Each project focuses on solving real-world cloud infrastructure challenges using AWS services and industry best practices.
 
-The projects demonstrate practical experience in networking, compute, storage, monitoring, scalability, security, and automation.
+The projects demonstrate practical experience in compute, networking, storage, application deployment, monitoring, security, scalability, automation, and incident response.
 
 ---
 
-# 🚀 Projects Included
+## 🚀 Projects Included
 
-| 🚀 Project | Description |
-|------------|-------------|
-| ☁️ Enterprise Cloud DevOps Platform | Designed and deployed a highly available AWS infrastructure using VPC, EC2, ALB, Auto Scaling, Route 53, CloudFront, EFS, CloudWatch, SNS, and automated S3 backups. |
-| 🌐 AWS Application Load Balancer Path-Based Routing | Configured an Application Load Balancer with multiple Target Groups and path-based routing to host multiple web applications. |
+| # | Project | Description |
+|---|---|---|
+| 1 | 🏦 SecureBank – 3-Tier Banking Application | Designed and deployed a containerized 3-tier banking application using Docker, AWS EC2, Ansible, and Linux, implementing automated application deployment and infrastructure management with a focus on scalability, security, and maintainability. |
+| 2 | ☁️ Enterprise Cloud DevOps Platform | Designed and deployed a highly available AWS infrastructure using VPC, EC2, ALB, Auto Scaling, Route 53, CloudFront, EFS, CloudWatch, SNS, and automated S3 backups. |
+| 3 | 📊 Enterprise AWS Production Observability, Security & Automated Incident Response | Implemented EC2 monitoring using CloudWatch and CloudWatch Agent, configured alarms and EventBridge automation, and integrated Lambda for incident response, S3 for JSON incident log archiving, and SNS for real-time notifications. |
+| 4 | 🌐 AWS Application Load Balancer Path-Based Routing | Configured an Application Load Balancer with multiple Target Groups and path-based routing to host multiple web applications. |
+| 5 | ☕ Apache Tomcat on AWS | Deployed a Java web application using Apache Tomcat on AWS EC2, demonstrating Java application hosting and server configuration. |
+
+
 ---
 
-# 🛠️ AWS Services Used
+## 🛠️ AWS Services Used
 
-### ☁️ Compute
+### ☁️ Compute & Application Hosting
 
 - Amazon EC2
 - Auto Scaling
 - Application Load Balancer
+- Apache Tomcat
 
 ### 🌐 Networking
 
@@ -52,6 +60,7 @@ The projects demonstrate practical experience in networking, compute, storage, m
 - Security Groups
 - Network ACLs
 - Route 53
+- CloudFront
 
 ### 💾 Storage
 
@@ -59,69 +68,88 @@ The projects demonstrate practical experience in networking, compute, storage, m
 - Amazon EBS
 - Amazon EFS
 
-### 📊 Monitoring
+### 📊 Monitoring & Observability
 
 - Amazon CloudWatch
+- CloudWatch Agent
+- CloudWatch Logs
+- CloudWatch Alarms
+- CloudWatch Dashboards
+
+### ⚡ Automation & Incident Response
+
+- AWS Lambda
+- Amazon EventBridge
 - Amazon SNS
+- JSON Incident Log Archiving
 
 ### 🔐 Security
 
-- IAM
+- AWS IAM
 - SSH
 - Bastion Host
 - Key Pairs
+- IAM Roles & Permissions
 
 ---
 
-# 🎯 Skills Demonstrated
+## 🎯 Skills Demonstrated
 
-- Cloud Infrastructure Design
-- High Availability
-- Load Balancing
-- Path-Based Routing
+- AWS Cloud Infrastructure Design
+- High Availability & Scalability
+- Load Balancing & Path-Based Routing
+- Java Web Application Deployment
+- Apache Tomcat Configuration
 - DNS Configuration
 - Infrastructure Security
-- Shared Storage
-- Monitoring & Alerting
-- Cloud Automation
+- VPC & Network Administration
+- Monitoring & Observability
+- Log Collection & Analysis
+- Automated Incident Response
+- Event-Driven Architecture
+- Serverless Automation
+- JSON-Based Log Archiving
 - Linux Administration
-- Shell Scripting
-- Networking Fundamentals
+- Cloud Automation
 
 ---
 
-# 📚 Technologies
+## 💻 Technologies
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform,jenkins,linux,bash,git,github,vscode" />
+<img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform,jenkins,linux,bash,git,github,vscode,java" />
 
 </p>
 
 ---
 
-# 🎯 Learning Outcomes
+## 🎯 Learning Outcomes
 
 Through these projects, I gained practical experience in:
 
-- Designing scalable AWS architectures
-- Deploying highly available applications
-- Configuring secure networking
-- Implementing monitoring and alerting
-- Managing Linux servers
-- Automating cloud tasks
-- Building production-ready cloud environments
+- Designing scalable and highly available AWS architectures.
+- Deploying Java web applications on AWS EC2 using Apache Tomcat.
+- Configuring Application Load Balancers and path-based routing.
+- Implementing secure AWS networking and access management.
+- Monitoring EC2 infrastructure using CloudWatch and CloudWatch Agent.
+- Creating CloudWatch alarms and monitoring dashboards.
+- Building event-driven automation using Amazon EventBridge.
+- Implementing automated incident response using AWS Lambda.
+- Archiving incident records in JSON format using Amazon S3.
+- Sending real-time alerts using Amazon SNS.
+- Managing Linux servers and cloud infrastructure.
 
 ---
 
-# 🚀 Upcoming Projects
+## 🚀 Upcoming Projects
 
 - Docker Containerization
 - Kubernetes Deployment
 - Terraform Infrastructure as Code
 - Jenkins CI/CD Pipeline
 - GitHub Actions Automation
-- AWS Lambda Automation
+- AWS Lambda Advanced Automation
 - ECS & ECR Deployment
 - Prometheus & Grafana Monitoring
 
